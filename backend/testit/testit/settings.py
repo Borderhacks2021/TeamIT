@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'employee',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +81,7 @@ WSGI_APPLICATION = 'testit.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': env("DATABASE_NAME", default="teamit"),
+        'NAME': env("DATABASE_NAME", default="teamit_db"),
         'USER': env("DATABASE_USER", default="testuser"),
         'PASSWORD': env("DATABASE_PASSWORD", default="Test@123"),
         'HOST': 'localhost',
