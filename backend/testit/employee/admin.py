@@ -1,6 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
-from employee.models import Employee
+from employee.models import Employee, EmployeeProgramSkills, EmployeeMBTI, EmployeeWorkingGenius, EmployeeColourTraits
 
 admin.site.register(Employee)
+admin.site.register(EmployeeProgramSkills)
+admin.site.register(EmployeeMBTI)
+admin.site.register(EmployeeWorkingGenius)
+admin.site.register(EmployeeColourTraits)
