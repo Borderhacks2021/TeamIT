@@ -19,3 +19,6 @@ def prepareReport(request):
         return response
     else:
         return render(request, 'index.html', {})
+
+def homepage(request):
+    return render(request, 'home.html', {})
