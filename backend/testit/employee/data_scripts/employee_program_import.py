@@ -1,4 +1,3 @@
-import employee
 import openpyxl
 from employee.models import Employee, EmployeeProgramSkills
 
