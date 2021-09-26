@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <style>
+      .box {
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+    border:none;
+}
+
+.box:hover {
+  background: #ff7b29;
+}
+      </style>
+  </head>
 <body>
 
-<h2>Employee Report</h2>
+  <div class="headerNav" style="height: 70px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, white, black);">
+  <img src="https://image4.owler.com/logo/mcintosh--doug-stables_owler_20200225_191540_original.png" alt="wavedirect" style="width:200px;height:50px;">
+  </div>
 
+  <div class="heading" style="text-align: center;font-family: Arial, sans-serif;">
+<h2>Employee Report</h2>
+</div>
+
+<br/>
+
+<div class="form" style="text-align: center;">
 <form method="post" action="/reports/">
-  <label for="emp_code">Employee_code:</label><br>
-  <input type="text" id="emp_code" name="emp_code" placeholder="Employee_code"><br>
-  <input type="submit" value="Submit">
+  <label for="emp_code" style="font-family: Arial, sans-serif;">Employee Code &nbsp; </label>
+  <input type="text" id="emp_code" name="emp_code" placeholder="Employee code" style=" width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;"
+  required/><br/><br />
+  <input type="submit" value="Submit" class="box">
 </form> 
+</div>
 
 </body>
 </html>
