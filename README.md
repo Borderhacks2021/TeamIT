@@ -21,14 +21,4 @@ An organizational health tool that provides insight into a company’s human res
 - Mysql
 - Html/CSS
 
-## Hosting
-- Google cloud platform
 
-
-## Live Demo
-
-http://34.69.72.174/
-
-Credentials for demo
-- username - `hacker`
-- password - `Hack@123`
